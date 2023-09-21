@@ -4,7 +4,7 @@
 Personal portfolio website, giving information about my skills, past experiences, degrees and interests.
 
 
-## DesignIdea
+## Design Idea
 
 https://coba.upnvj.ac.id/themes/liza//index-2.html
 
