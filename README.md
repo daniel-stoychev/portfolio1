@@ -15,14 +15,14 @@ https://coba.upnvj.ac.id/themes/liza//index-2.html
 - LightBox
 - Bootstrap
 - Carousel
-- jQuery
+- Modal
 
 
 ## Used Languages
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript/jQuery
 
 
 ## Run Locally
