@@ -1,0 +1,158 @@
+body, html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80%;
+    background-image: url(temphotos/tbackround.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.nav {
+    background-image: url(temphotos/background.jpg);
+    border-bottom: 1px solid black;
+    -moz-box-shadow: 0 0 30px 1px black;
+    -webkit-box-shadow: 0 0 30px 1px black;
+    
+}
+
+.navwrapper {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+
+.nav ul li:hover {
+    background-image: url(temphotos/backnav.png);
+}
+
+
+
+.nav ul li img {
+    width: 8px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.nav ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.nav ul li:hover ul {
+    display: block;
+
+}
+
+.nav ul ul {
+    display: none;
+    position: absolute;
+    background-image: url(temphotos/backnav.jpg);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    min-width: 11%;
+    margin-top: 1px;
+    -moz-box-shadow: 0 10px 25px 1px black;
+    -webkit-box-shadow: 0 10px 25px 1px black;
+}
+
+.nav ul ul li {
+    display: block;
+}
+
+.nav ul ul li a:hover {
+    color: white;
+}
+
+.right {
+    float: right;
+}
+
+hr {
+    width: 98%;
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer {
+
+}
+
+.imgfb {
+    width: 1.2%;
+    margin: 0 auto;
+}
+
+/*------------------------------------------
+a[title=Contact] {
+    float: right;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.8rem;
+    margin-top: -4%;
+}
+
+a[title=Contact]:hover {
+    background-color: #CACACA;
+}
+/*----------------------------*/
+
+
+
+
+
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin-top: 2%;
+
+}
+
+
+/*----------------------------*/
+
+form ul li {
+    list-style-type: none;
+}
+
+form ul li ul li:before {
+    content: "-";
+}
+
+form ul li ul li ul li:before {
+    content: "";
+}
+
+form ul li ul li ul li {
+    list-style-type: circle;
+}

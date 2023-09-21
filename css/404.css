@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Saira Condensed', sans-serif;
+}
+
+body {
+	
+	background-image: url("https://danielstoychev.com/images/under_const.png");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#0b0c11;
+}
+
+input[type=text], select {
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: none;
+  font-size: 15px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 4%;
+}
+
+.heading_content {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	;
+}
+
+.heading_content p {
+	font-size: 20px;
+	margin-bottom: 12%
+	
+}
+
+@media only screen and (max-width: 800px) {
+	h2 {
+		font-size: 36px;
+		margin-top: 50px;
+	}
+	.heading_content {
+		width: 90%;
+	}
+	input[type=text], select {
+		width: 60%;
+	}
+	input[type=submit] {
+		width: 30%;
+	}
+
+}

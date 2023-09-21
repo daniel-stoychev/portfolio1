@@ -1,0 +1,96 @@
+header {
+	width: 100%;
+	min-width: 800px;
+	height: 100vh;
+	background-image: url("https://danielstoychev.com/images/origami.jpg");
+	/*background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;*/
+	background-size: cover;
+
+	/*background-size: contain;
+	background-repeat: no-repeat;
+	
+	*/
+	
+}
+.siteground img {
+	width: 40%;
+	padding-top: 14vw;
+	padding-left: 8vw;
+	margin-right: 17vw;
+}
+
+.responsibilities {
+	display: none;
+	position: absolute;
+	width: 30%;
+	float: right;
+	font-size: 1.4em;
+	color: white;
+	margin-top: -100px;
+	margin-left: 54vw;
+	background: rgba(0,0,0,0.57);
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.responsibilities ul li {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+.mochahost {
+	width: 100%;
+	min-width: 800px;
+	height: 100vh;
+	background-image: url("https://danielstoychev.com/images/mocha.jpg");
+	/*background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;*/
+	background-size: cover;
+
+	/*background-size: contain;
+	background-repeat: no-repeat;
+	
+	*/	
+}
+
+.responsibilitiesMOCHA {
+	display: none;
+	position: absolute;
+	width: 30%;
+	float: right;
+	font-size: 1.4em;
+	color: white;
+	margin-top: -120px;
+	margin-left: 56vw;
+	background: rgba(0,0,0,0.57);
+	padding-left: 40px;
+	padding-top: 20px;
+	
+}
+
+.responsibilitiesMOCHA ul li {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+.responsibilitiesMOCHA ul li ul li {
+	list-style-type: none;
+}
+
+.responsibilitiesMOCHA ul li ul li:before {
+	content:"- ";
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+.show_video {
+	border:none;
+}
+
+.show_video:hover {
+  border: none;
+}

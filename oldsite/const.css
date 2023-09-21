@@ -1,0 +1,281 @@
+body, html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80%;
+    background-image: url(temphotos/tbackround.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.nav {
+    background-image: url(temphotos/background.jpg);
+    margin-bottom: 1%;
+    border-bottom: 2px solid black;
+    -moz-box-shadow: 0 0 30px 5px black;
+    -webkit-box-shadow: 0 0 30px 5px black;
+}
+
+.navwrapper {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+
+.nav ul li:hover {
+    background-image: url(temphotos/backnav.png);
+}
+
+
+
+.nav ul li img {
+    width: 8px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.nav ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem;
+}
+
+.nav ul li:hover ul {
+    display: block;
+
+}
+
+.nav ul ul {
+    display: none;
+    position: absolute;
+    background-image: url(temphotos/backnav.jpg);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    min-width: 11%;
+    margin-top: 1px;
+    -moz-box-shadow: 0 10px 25px 1px black;
+    -webkit-box-shadow: 0 10px 25px 1px black;
+
+}
+
+.nav ul ul li {
+    display: block;
+}
+
+.nav ul ul li a:hover {
+    color: white;
+}
+
+.right {
+    float: right;
+}
+
+hr {
+    width: 98%;
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer {
+
+}
+
+.imgfb {
+    width: 1.2%;
+    margin: 0 auto;
+}
+
+
+
+/*------------------------------------------
+a[title=Contact] {
+    float: right;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.8rem;
+    margin-top: -4%;
+}
+
+a[title=Contact]:hover {
+    background-color: #CACACA;
+}
+/*----------------------------*/
+
+
+/*-----------------------------------------*/
+
+.profilepic img {
+    width: 100%;
+}
+
+.profilepic {
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+
+.lines h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.lines p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/*-----------------------------------------*/
+
+.pic {
+   width: 16%;
+   border-radius: 10px;
+}
+
+
+
+.photos1 {
+    font-size: 2em;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    position: float;
+}
+
+.photos1 a{
+    cursor: zoom-in;
+}
+
+
+.piczoom0 {
+    width: 0px;
+    position: absolute;
+    margin: 0 auto;
+    transition: 1.1s;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+}
+
+.picsmall:hover + .piczoom0 {
+    width: 60%;
+}
+
+.picsmall:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.piczoom {
+    width: 0px;
+    position: absolute;
+    margin: 0 auto;
+    transition: 1.3s;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+}
+
+.picsmall:hover + .piczoom {
+    width: 35%;
+}
+
+.piczoom1 {
+    width: 0px;
+    position: absolute;
+    margin: 0 auto;
+    transition: 1.3s;
+    right: 0; top: 0; bottom: 0;
+    margin: auto;
+
+}
+
+.picsmall:hover + .piczoom1 {
+    width: 50%;
+}
+
+.piczoom2 {
+    width: 0px;
+    position: absolute;
+    margin: 0 auto;
+    transition: 1.3s;
+    left: 0; top: 0; bottom: 0;
+    margin: auto;
+
+}
+
+.picsmall:hover + .piczoom2 {
+    width: 50%;
+}
+
+/*-------------- PRIMARY.HTML----------------*/
+td img {
+    width: 40rem;
+}
+
+table {
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+td ul hr {
+    margin-left: -9%;
+}
+
+
+tr td p::first-letter{
+    font-size: 4rem;
+    line-height: 1.4%;
+}
+
+/*-----------cert.html-------------------*/
+
+.cpanel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpanel img {
+    padding: 2%;
+    width: 45%;
+
+}
+
+.english img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.english {
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+}

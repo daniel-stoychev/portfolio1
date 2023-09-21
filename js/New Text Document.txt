@@ -1,0 +1,4 @@
+$("#demobutton").click(function(){
+	$(".responsibilities").fadeIn(500);
+});
+

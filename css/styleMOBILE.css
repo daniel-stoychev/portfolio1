@@ -1,0 +1,468 @@
+@media only screen and (max-width: 800px) {
+/*-----MODAL (contact)-------*/
+	.gmap_canvas {
+		width: 100%;
+	}
+	.modal-body {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.modal-content {
+             width: 100%;
+}
+
+        .mapouter {
+             width: 100%;
+}
+
+
+/*----- END MODAL (contact)-------*/
+	.title {
+		float: none;
+		margin-top: 10px;
+	}
+	.profile {
+		float: none;
+		width: 100%;
+	}
+	.title h1 {
+		font-size: 4vw;
+		padding-top: 10px;
+	}
+	.title h3 {
+		font-size: 4vw;
+		padding-top: 10px;
+	}
+	.backcolor {
+		width: 100%;
+
+	}
+	.profile hr{
+	width: 100%;
+	}
+	.name hr {
+	width:50px;
+	}
+	.interests {
+		width: 90%;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 5vw;
+	}
+	.interests_container h1 {
+		text-align: center;
+		margin-bottom: 10vw;
+		margin-top: 10vw;
+	}
+	.interests img {
+		width: 50%;
+		margin-top: 10%;
+		border-radius: 50%;
+	}
+	/*-----IT ALL STARTED 2015------*/
+	.info {
+		width: 100%;
+		float: none;
+		margin-bottom: 10vw;
+		margin-top: 10vw;
+	}
+
+	.info a {
+		padding: 0px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
+	.startimage {
+		float: none;
+		width: 100%;
+	}
+	.startimage img {
+		width: 100%;
+		margin: 0%;
+	}
+	.newline {
+		float: none;
+		padding-bottom: 20px;
+	}
+
+/*CAROUSEL*/
+	#carousel-example-generic {
+		width: 100%;
+	}	
+
+		.carousel-inner img {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+
+	/*LIGHTBOX*/
+	.lightb {
+		width: 90%;
+	}
+	.lightb img {
+		width: 47%;
+		padding: 1%;
+	}
+
+	footer {
+		margin-bottom: 250px;
+	}
+	.footer_mail {
+		padding-top: 50px;
+	}
+
+	.footer_mail p {
+		font-size: 17px;
+	}
+	.footer_phone p {
+		font-size: 17px;
+	}
+	.footer_name {
+		padding-top: 50px;
+	}
+	.footer_phone {
+		padding-top: 50px;
+	}
+/*-------------------------PAGE: ACTIVITIES------------------------------------*/
+
+	.box_left {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+	
+	}
+
+	.box_right {
+		float: none;
+		
+		width: 100%;
+	
+	}
+	.align_text {
+		width: 90%;
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+	.align_text p {
+		font-size: 17px;
+	}
+	
+
+/*------------------------------PAGE: WORK*-----------------------------*/
+header {
+	min-width: 0px;
+}
+.siteground img {
+	width: 100%;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-top: 10vw;
+	margin-bottom: 3vw;
+
+}
+
+.responsibilities {
+	float: none;
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+
+.mochahost {
+	min-width: 0px;
+	}
+#mocha {
+	margin-top: -10vw;
+}
+
+.responsibilitiesMOCHA {
+	float: none;
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+
+
+
+#demobuttonMOCHA {
+	margin-left: 20%;
+}
+
+#demobuttonSG {
+	margin-left: 20%;
+}
+/*-------------------------------------MENU-------------------------------------*/
+nav a {
+	font-size: 25px;
+}
+.menu {
+	display: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	background: rgba(19,21,28,1);
+background: -moz-linear-gradient(top, rgba(19,21,28,1) 85%, rgba(0,0,0,0) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(85%, rgba(19,21,28,1)), color-stop(100%, rgba(0,0,0,0)));
+background: -webkit-linear-gradient(top, rgba(19,21,28,1) 85%, rgba(0,0,0,0) 100%);
+background: -o-linear-gradient(top, rgba(19,21,28,1) 85%, rgba(0,0,0,0) 100%);
+background: -ms-linear-gradient(top, rgba(19,21,28,1) 85%, rgba(0,0,0,0) 100%);
+background: linear-gradient(to bottom, rgba(19,21,28,1) 85%, rgba(0,0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13151c', endColorstr='#000000', GradientType=0 );
+	padding-top: 20px;
+	padding-bottom: 120px;
+	width: 100%;
+}
+
+.menu a {
+	display: grid;
+}
+
+.heading {
+	margin-top: 0px;
+}
+
+.small_menu {
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.small_menu img {
+	float: left;
+	width: 22px;
+	margin-top: 2px;
+}
+
+.small_menu button {
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	margin-left: 0;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: none;
+}
+
+.social {
+	margin-top: 20px;
+}
+
+#hidden_letter {
+	color: transparent;
+}
+
+.dropbtn {
+	margin-bottom: 0px;
+
+}
+
+.menu a:hover {
+	border-bottom: 0px;
+	padding-bottom: 0px;	
+}
+
+.dropdown {
+	width: 100%;
+}
+.dropdown-content {
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.pages{
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
+
+.pages hr {
+	display: none;
+}
+
+.pages a {
+	font-size: 18px;
+	padding: 10px;
+}
+
+#Xhref {
+	float: left;
+	width: 50%;
+}
+
+#closeX {
+	float: right;
+	margin-right: 30px;
+	background-color: transparent;
+	border: none;
+}
+/*END OF MENU*/
+
+
+
+/*VIDEO*/
+iframe {
+	width: 100%;
+}
+/*END OF VIDEO*/
+
+/*-------------------UNIVERSITY PAGE-------------------*/
+.uniHeader {
+	margin-top: 25px;
+	padding-top: 1vw;
+	padding-bottom: 6vw;
+}
+
+.TUlink {
+	margin-top: 23%;
+}
+
+.uniHeader a {
+	margin-top: 0px;
+}
+
+fieldset {
+	width: 90%;
+	margin-bottom: 50px;
+}
+
+.numbers {
+	width: 100%;
+}
+
+.fields img {
+	width: 47%;
+	padding: 5px;
+
+}
+
+#imgdown {
+	margin-top: 0px;
+}
+
+#mobile_center {
+	margin-left: 25%;
+}
+
+.hire_me {
+	width: 100%;
+	padding: 0px;
+}
+
+.hire_me_left {
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.hire_me p {
+	margin-left: 0px;
+}
+
+.hire_me a {
+	float: none;
+	margin-left: 32%;
+}
+
+#carrousel_uni {
+	width: 50%;
+}
+
+.reason_container {
+	width: 100%;
+	float: none;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	margin-left: 0px;
+	display: none;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	margin-right: 0px;
+	display: none;
+}
+/*-------------------END OF UNIVERSITY PAGE-------------------*/
+
+/*-------------------START OF SCHOOL PAGE-------------------*/
+	.data {
+		float: none;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.data_img {
+		width: 100%;
+	}
+	.data_img img {
+		width: 280px;
+		margin-left: 0px;
+	}
+	#button_school {
+		display: block;
+	}
+	.button_mid a {
+		margin-right: 0px;
+   		margin-top: 50px;
+    		margin-left: 0px;
+	}
+	.high_school {
+		margin-top: 75px;
+	}
+
+/*-------------------END OF SCHOOL PAGE-------------------*/
+
+/*CONTACT FORM*/
+
+#modal_width {
+    width: 100%;
+}
+.user_details {
+    width: 100%;
+    float: none;
+}
+.my_details {
+    width: 100%;
+    float: none;
+}
+#form_btn {
+	border-radius: 0%;
+}
+/*END OF CONTACT FORM*/
+
+
+}
+
+@media only screen and (min-width: 800px) {
+	.small_menu {
+		display: none;
+	}
+		#closeX {
+		display: none;
+	}
+
+}
+
+/*--------------------START OF SCHOOL PAGE 2----------------*/
+@media only screen and (max-width: 1500px) {
+	.data_img img {
+		width: 200px;
+		margin-bottom: 25px;
+	}
+
+	.data_img {
+		margin-top: 50px;
+	}
+
+}
+/*-----------------END OF SCHOOL PAGE 2----------------------*/
+
+
+

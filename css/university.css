@@ -1,0 +1,296 @@
+header {
+	background-image: none;
+}
+
+body {
+	background-image: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 0px;
+}
+.uniHeader {
+	background-image: url(https://danielstoychev.com/images/backgroundUNI.jpg);
+	background-position: center;
+	background-size: cover;
+	
+	padding-top: 10vw;
+	padding-left: 10vw;
+	padding-bottom: 3vw;
+	margin: 0px;
+}
+
+.uniHeader h1 {
+	display: inline-block;
+	
+	padding-bottom: 10px;
+}
+
+.uniHeader h3 {
+	margin-top: 0px;
+}
+
+.uniHeader a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin-left: -9.4vw;
+	background-color: #13151c;
+	padding: 14px;
+	font-size: 15px;
+	-webkit-transition: 1s;
+}
+
+.uniHeader a:hover {
+  background-color: #048ace;
+  transition: 1s;
+}
+
+.TUlink {
+	margin-top: 12vw;
+}
+
+fieldset {
+	border: 2px solid white;
+	width: 30%;
+	position: relative;
+
+}
+
+legend {
+	margin-bottom: 0px;
+	color: white;
+	border: none;
+	width: none;
+	font-size: 20px;
+}
+
+
+
+.menu {
+	margin-bottom: 50px;
+}
+
+.TUcontent {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+
+
+.TUpcenter span {
+	display: block;
+	float: left;
+	font-weight: 400;
+	margin: -1px 0 0 0;
+  	width: 0.7em;
+  	font-size: 350%;
+  	line-height: 80%;
+}
+
+.numbers {
+	float: left;
+	width: 23%;
+}
+
+.numbers hr {
+	width: 20px;
+	float: left;
+	margin-top: 33px;
+	border-top: 2px solid white;
+	margin-right: 5px;
+}
+
+.numbers p {
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*-----------FIELDS------------*/
+.fields h1 {
+	text-align: center;
+	padding-top:50px;
+}
+
+.fields {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #13151c;
+	padding-bottom: 50px;
+}
+
+.fields img {
+	width: 20%;
+	font-size: 0px;
+	
+}
+
+#imgdown {
+	margin-top: 100px;
+}
+
+.fields_img {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0px;
+}
+
+
+/*----------Hire me-----------*/
+.hire_me {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	padding-top: 100px;
+}
+
+.hire_me hr {
+	width: 20px;
+	float: left;
+	margin-top: 8px;
+	border-top: 2px solid white;
+	margin-right: 5px;
+	
+}
+
+.hire_me h4 {
+	text-transform: uppercase;
+}
+
+.hire_me h1 {
+	font-size: 45px;
+}
+
+.hire_me_left p {
+	font-size: 20px;
+	margin-left: 220px;
+}
+
+.hire_me a {
+	
+	float: right;
+	color: white;
+	border: 2px solid white;
+	padding: 14px;
+	padding-left: 45px;
+	padding-right: 45px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 100px;
+	margin-top: -80px;
+	-webkit-transition: 1s;
+}
+
+.hire_me a:hover {
+  background-color: #048ace;
+  border: 2px solid #048ace;
+  transition: 1s;
+  
+}
+
+/*---------------CAROUSEL----------------*/
+
+.testemonials h1 {
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+}
+#carousel-example-generic {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.carousel-inner img {
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	padding: 0px;
+}
+
+.carousel-inner p {
+	text-align: center;
+}
+
+.carousel-indicators {
+  position: relative;
+ }
+
+ .carousel-inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	margin-left: -60px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	margin-right: -60px;
+}
+
+/*---------END CAROUSEL---------*/
+
+
+.reasons {
+	width: 80%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.reasons h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.reason_container img {
+	float: left;
+	width: 50px;
+	margin-bottom: 10px;
+}
+
+.reason_container p {
+	float: left;
+	margin-top: 7px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 20px;
+}
+
+.reason_container span {
+	font-size: 17px;
+}
+
+.reason_container hr {
+	width: 20px;
+	float: left;
+	border-top: 2px solid white;
+	margin-right: 25px;
+}
+
+.reason_container h3 {
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.reason_container {
+	width: 30%;
+	float: left;
+	margin: 1%;
+	margin-bottom: 50px;
+}
+
