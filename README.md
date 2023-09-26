@@ -62,9 +62,3 @@ Replace server paths with local ones
 If you have any feedback, please reach out to me at daniel.stoychev@siteground.com
 
 
-## Acknowledgements
-
- - [SoftAcademy](https://softacademy.bg/kurs-web-programirane/)
- - [SiteGround](https://www.siteground.com/)
- - [Myslef](https://danielstoychev.com/)
-
